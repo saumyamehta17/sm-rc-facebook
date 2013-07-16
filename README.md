@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SM RailsCast 235
 ================
 
@@ -22,3 +23,7 @@ add gem devise and install and create scaffolding..
 ```
 #todo..
 ```
+=======
+sm-rc235
+========
+>>>>>>> af329ea31ee29ea9d5a04bb6531658997f3fa721
