@@ -29,7 +29,7 @@ gem 'thin' , :group => :development
 gem 'devise'
 gem 'simple_form'
 gem 'omniauth'
-gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 
 
 # To use ActiveModel has_secure_password

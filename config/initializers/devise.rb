@@ -86,7 +86,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = "979fdc5c3de1eec36fac3731a00e3f385bca1d6d78857b52fc69ae5ba92a60b57967e8e7e8ae115a0c7e1985454eeab7d9215708154db25a225cb32c33a89382"
+  # config.pepper = "b12fd2e51fd9a917855d57c1aebaa4fc751c07f6cf20918ca37aeda6d66293d6905563065e44428d5ca7e51e628a0e8aaffa2183dc17e595dfc4d46c1ed089f7"
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
@@ -220,8 +220,7 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', :scope => 'user,public_repo'
-  config.omniauth :twitter , ENV["TWITTER_CONSUMER_KEY"] , ENV["TWITTER_CONSUMER_SECRET"]
-
+    config.omniauth :facebook, '162858213897629', '4c390b143aafc4a4628f97d218521917'
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
   # change the failure app, you can configure them inside the config.warden block.
