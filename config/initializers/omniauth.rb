@@ -1,1 +1,1 @@
-OmniAuth.config.full_host = "http://local.com"
+# OmniAuth.config.full_host = "http://local.com"

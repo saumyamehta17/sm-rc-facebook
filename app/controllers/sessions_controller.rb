@@ -1,7 +1,7 @@
-class SessionsController < ApplicationController
+# class SessionsController < ApplicationController
 
- def create
-	raise env["omniauth.auth"].to_yaml
-end
+#  def create
+# 	raise env["omniauth.auth"].to_yaml
+# end
 
-end
+# end
